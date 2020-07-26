@@ -1,0 +1,1100 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    box-sizing: border-box;
+} 
+/* thanh nav 1 */
+.navbar-light .navbar-nav .nav-link1{
+    color: black;
+    font-size: smaller;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link1:hover{
+    color: #0483d7;
+    text-decoration: none;
+}
+.active{
+    padding-top: 7px;
+}
+/* định màu nav 1 */
+.bg-bn1{
+    background: #f7f7f7;
+}
+.dropdown-menu{
+    left: auto;
+    right: 0;
+}
+#dropdownId4 img{
+    width: 14px;
+    height: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.fa-angle-down{
+    padding-top: 2px;
+    padding-left: 5px;
+}
+.fa-angle-down{
+    margin-top: 3px;
+}
+.dropdown-item{
+    padding-bottom: 15px;
+    font-size: smaller;
+}
+.nav{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.wel{
+    font-size: small;
+}
+.iteam1{
+    border:0.01px solid #bfbfbf;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.gach{
+    padding-left: 10px;
+}
+
+/* định khoảng cách giữa thanh tìm kiếm và nav1 */
+.timkiem{
+    padding-top: 30px;
+}
+/* canh thanh tìm kiếm */
+.col-6{
+    padding-left: 100px;
+}
+/* định dạng cho thanh tìm kiếm */
+.thanh{
+    border-left: 2px solid #0090f0;
+    border-top: 2px solid #0090f0;
+    border-bottom: 2px solid #0090f0;
+    border-right: 0;
+    border-radius:999px 999px 999px 999px;
+    padding-left: 15px;
+    height: 50px;
+    width: 842px;
+    margin-left: 70px;
+}
+.thanh5{
+    border: none;
+    font-size: small;
+    margin-top: 3px;
+}
+.thanh1 {
+    border-right: 2px solid #0090f0;
+    border-top: 2px solid #0090f0;
+    border-bottom: 2px solid #0090f0;
+    border-radius: 0 999px 999px 0;
+    font-size: 20px;
+    color: white;
+    background: #0090f0;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    height: 50px;
+    padding: 0 33px;
+}
+.thanh1:hover{
+    background: #0483d7;
+}
+#type1{
+    padding-top: 2px;
+    width: 145px;
+    height: 28px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+    border: none;
+    padding-left: 25px;
+    margin-left: 80px;
+    margin-top: 8px;
+
+}
+/* định dạng thanh sđt và email */
+.link{
+    padding-left:10px ;
+}
+.SDTandemail{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sdt:hover{
+    text-decoration: none;
+    color: #008eec;
+}
+.email a{
+    color: grey;
+}
+.email a:hover{
+    text-decoration: none;
+    color: #008eec;
+}
+.hinhnghe{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.hinhnghe img{
+    height: 47px;
+}
+.timkiem{
+    padding-bottom: 20px;
+}
+/* định dạng thanh nav 2 */
+#bottom-header{
+    background-color: #0090f0;
+}
+#bottom-header .wp-inner{
+    display: flex;
+    justify-content: space-between;
+}
+#main-menu{
+    display: flex;
+    padding-left: 0;
+}
+#main-menu li{
+    list-style: none;
+    position: relative;
+}
+#main-menu li a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    padding:18px 30px ;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+#main-menu>li:hover{
+    background-color: #0483d7;
+}
+#main-menu>li:hover>.sub-menu{
+    display: block;
+}
+#main-menu li>.sub-menu>li:hover>.sub-menu{
+    display: block;
+}
+#main-menu li a.has-sub-menu{
+    position: relative;
+}
+#main-menu li a.has-sub-menu:after{
+    position: absolute;
+    top: 21px;
+    right: 13px;
+}
+#cart{
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+    padding-left: 65px;
+}
+#cart:before{
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+/* =================Submenu=============== */
+.sub-menu li{
+    z-index: 10;
+}
+.sub-menu{
+    z-index: 10;
+}
+#main-menu .sub-menu{
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    border: 1px solid #d8d8d8;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    display: none;
+}#main-menu .sub-menu li>.sub-menu{
+    top: 0;
+    left:100%;
+    padding-left: 0;
+}
+#main-menu .sub-menu li{
+    border-bottom: 1px solid #d5d5d5;
+    background: white;
+}
+#main-menu .sub-menu>li>a{
+    padding: 10px 30px;
+    color:#888;
+    font-weight: 400;
+    transition: all 0.25s ease-in-out;
+}
+#main-menu .sub-menu>li>a:hover{
+    color: #0090f0;
+    transform: translateX(15px);
+}
+#main-menu li.more-sub-menu>.sub-menu{
+    width: 1170px;
+    left: -100px;
+    padding: 30px;
+    z-index: 2;
+}
+#main-menu li.more-sub-menu>.sub-menu .sub-menu{
+    position: relative;
+    display: block;
+    left: 0;
+    border: none;
+}
+#main-menu li.more-sub-menu>.sub-menu .sub-menu li{
+    width: 100%;
+}
+#main-menu li.more-sub-menu>.sub-menu .sub-menu li a{
+    padding: 10px 0;
+}
+#main-menu li.more-sub-menu>.sub-menu li{
+    border: none;
+    width: 25%;
+    float: left;
+}
+#main-menu li.more-sub-menu>.sub-menu li a.sub-title{
+    padding: 0;
+    color: #333333;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#main-menu .sub-menu{
+    background-color: #fff;
+}
+#main-menu li.more-sub-menu>.sub-menu li a.sub-title:hover{
+    color: #0090f0;
+    transform: translateX(0);
+}
+.banner-sub-menu{
+    width: 1170px;
+    padding: 30px 30px 30px 0; 
+    display: flex;
+}
+.banner-sub-menu img{
+    padding-left: 35px;
+}
+#main-menu li.more-sub-menu-custom>.sub-menu{
+    width: 1170px;
+    left: -750px;
+    padding: 30px;
+}
+#main-menu li.more-sub-menu-custom>.sub-menu li{
+    border: none;
+    width: 33%;
+    float: left;
+    color: #666;
+}
+#main-menu li.more-sub-menu-custom>.sub-menu li a.sub-title{
+    padding: 0;
+    color: #333333;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#main-menu li.more-sub-menu>ul.custom{
+    width: 1170px;
+    left: -770px;
+    padding: 30px;
+}
+#main-menu li.more-sub-menu>.custom li{
+    border: none;
+    width: 33%;
+    float: left;
+}
+#main-menu li.more-sub-menu>.custom li a.sub-title:hover{
+    color: #333;
+    transform: none;
+}
+#main-menu li.more-sub-menu>.custom li p {
+    color: #888;
+    font-size: 95%;
+    width: 320px;
+}
+/* định dạng giỏ hàng */
+.giohang{
+    padding-right: 20px;
+}
+.giohang i{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.giohang .item_count{
+    display: block;
+    padding:0 2px;
+    background: #fff;
+    color: black;
+    font-size:20px;
+    border-radius: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-top: 30px;
+    margin-left:15px;
+    top:0px;
+    position: absolute;
+    font-size: small;
+    width: 16px;
+    height: 17px;
+    text-align: center;
+    padding-top: 2px;
+}
+.item_count:hover{
+    text-decoration: none;
+}
+.item_total{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.giohang2:hover{
+    text-decoration: none;
+}
+.giohang2{
+    padding-right: 8px;
+}
+.thuong{
+    text-align: left;
+    display: inline-block;
+}
+/* định dạng home nhỏ và Electronics */
+.home{
+    color: black;
+    text-decoration: none;
+}
+.home:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+.elec:hover{
+    text-decoration: none;
+}
+.homnho{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+/* định dạng filter */
+.filter{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.clear2{
+    border-bottom: 1px solid #e3e3e3;
+    width: 240px;
+}
+.electron{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cl{
+    border: 1.5px solid #0483d7;
+}
+.duong{
+    padding-bottom: 30px;
+}
+/* định dạng clear */
+.clear{
+    background: black;
+    color: white;
+    width: 120px;
+    border-radius: 6px;
+    height: 35px;
+}
+.all{
+    padding-top: 5px;
+    text-align: center;
+}
+.clear:hover{
+    background: #0483d7;
+}
+/* định dạng check and Categories */
+.cat{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.acc i{
+    color: #dadada;
+}
+.acc a{
+    color: gray;
+}
+.acc a:hover{
+    color: #0090f0;
+    text-decoration: none;
+}
+.acc{
+    padding-top: 10px;
+}
+/* định dạng check và Brand và price vad size */
+.ovuong{
+    list-style: none;
+    padding-left: 0;
+}
+.ovuong a{
+   padding-left: 10px;
+}
+.ovuong1{
+    list-style: none;
+    padding-left: 0;
+}
+.ovuong1 .mau{
+    padding-left: 10px;
+}
+/* định dạng color */
+.danhmau i{
+    color: #AAB2BD;
+    background: #AAB2BD;
+}
+.danhmau2 i{
+    background: white;
+}
+.danhmau3 i{
+    color: black;
+    background: black;
+}
+.danhmau4 i{
+    color: #c19a6b;
+    background: #c19a6b;
+}
+/* định dạng Pags */
+.cat1{
+    padding-top: 30px;
+    font-weight: bold;
+}
+ .trong{
+    border: 0.1px solid #e3e3e3;
+    width: 240px;
+} 
+.computer{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid gray;
+    border-radius: 999px;
+    text-align: center;
+    color: black;
+}
+.computer:hover{
+    background: #0090f0;
+    color: white;
+    text-decoration: none;
+}
+.botron{
+    padding-top: 30px;
+}
+.sale{
+    margin-left: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid gray;
+    border-radius: 999px;
+    text-align: center;
+    color: black;
+}
+.sale:hover{
+    background: #0090f0;
+    color: white;
+    text-decoration: none;
+}
+/* định dạng electronics */
+.electronic{
+    padding-top: 30px;
+}
+.elect{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid gray;
+    border-radius: 999px;
+    text-align: center;
+    color: black;
+}
+.elect:hover{
+    background: #0090f0;
+    color: white;
+    text-decoration: none;
+}
+.je{
+    padding-top: 30px;
+}
+.jewelry{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid gray;
+    border-radius: 999px;
+    text-align: center;
+    color: black;
+}
+.jewelry:hover{
+    background: #0090f0;
+    color: white;
+    text-decoration: none;
+}
+.hinhtaiphon{
+    padding-top: 50px;
+}
+.thanhchon{
+    background: #f6f6f6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.thanhchon i{
+    font-size: 1.5rem;
+    color: #AAB2BD;
+    padding-top: 10px;
+}
+.thanhchon i:hover{
+    color: blue;
+}
+.haiicon{
+    padding-top: 15px;
+}
+.bagach{
+    padding-left: 10px;
+    color: #AAB2BD;
+}
+.bagach:hover{
+    color: #0483d7;
+}
+.there1{
+    padding-top: 13px;
+    color: gray;
+}
+.there{
+    color: gray;
+    padding-right: 15px;
+    list-style: none;
+}
+.there span{
+    margin-right: 20px;
+}
+.dropdown-toggle{
+    padding-left: 70px;
+}
+#add-to-links{
+    border: 1px solid #AAB2BD;
+    height: 100px;
+    border-radius: 999px  999px 999px 999px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 256px;
+    height: 30px;
+}
+.option{
+    border: none;
+    outline: 0;     
+    outline-style: none;     
+    outline-width: 0;
+}
+.sort{
+    padding-left: 40px;
+}
+.icon{
+    padding-left: 150px;
+    padding-right: 10px;
+    color: black;
+}
+.sort{
+    padding-top: 15px;
+}
+.lectchon{
+    background: #f7f7f7;
+}
+/* chinh cac hinh */
+.hinh img{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh img:hover{
+    content: url('../img/brown-bear-vector-graphics\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    display: block;
+    padding-top: 50px;
+    padding-right: 35px;
+}
+.iconan1{
+    padding-left: 5px;
+}
+.iconan1:hover{
+    text-decoration: none;
+}
+.bieutuong1{
+    margin-top: 305px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+}
+.bieutuong1:hover{
+    background: #0090f0;
+}
+.bieutuong2{
+    margin-top: 305px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+}
+.bieutuong2:hover{
+    background: #0090f0;
+}
+.bieutuong3{
+    margin-top: 305px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+}
+.bieutuong3:hover{
+    background: #0090f0;
+}
+.iconan1 .bieutuong:hover{
+    background: #0483d7;
+    color: red;
+}
+.add-to-links{
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+}
+.newnew{
+    width: 42px;
+    height: 24px;
+    margin-top: 60px;
+    border: 1px solid #008eec;
+    border-radius: 999px;
+    background: #008eec;
+    color: white;
+    text-align: center;
+}
+.newnew1{
+    width: 42px;
+    height: 24px;
+    margin-top: 60px;
+    border: 1px solid #008eec;
+    border-radius: 999px;
+    background: #008eec;
+    color: white;
+    text-align: center;
+}
+.newnew2{
+    width: 42px;
+    height: 24px;
+    margin-top: 60px;
+    border: 1px solid #c81d1d;
+    border-radius: 999px;
+    background: #c81d1d;
+    color: white;
+    text-align: center;
+}
+
+/*  */
+.hinh1{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh1:hover{
+    content: url('../img/juicy-couture-tricot-logo-stripe-jacket.jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh2{
+    display: block;
+    padding-top: 50px;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh2:hover{
+    content: url('../img/new-balance-fresh-foam-lazr-v1-sport\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh3{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh3:hover{
+    content: url('../img/brown-bear-cushion\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh4{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh4:hover{
+    content: url('../img/new-balance-fresh-foam-kaymin\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh5{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh5:hover{
+    content: url('../img/-water-and-wind-resistant-insulated-jacket\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh6{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh6:hover{
+    content: url('../img/trans-weight-hooded-wind-and-water-resistant-shell\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh7{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh7:hover{
+    content: url('../img/madden-by-steve-madden-cale-6.jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh8{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh8:hover{
+    content: url('../img/calvin-klein-jeans-reflective-logo-full-zip\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh9{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh9:hover{
+    content: url('../img/the-adventure-begins-framed-poster\ \(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh10{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh10:hover{
+    content: url('../img/brixton-patrol-all-terrain-anorak-jacket.jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.hinh11{
+    padding-top: 50px;
+    width: 240px;
+    display: block;
+    padding-right: 35px;
+}
+.hinh11:hover{
+    content: url('../img/juicy-couture-juicy-quilted-terry-track-jacket\(1\).jpg');
+    background-size: cover;
+    width: 240px;
+    padding-right: 35px;
+}
+.muoihaihinh{
+    padding-bottom: 50px;
+}
+.ngoisao{
+    text-align: center;
+}
+.ngoisao a:hover{
+    text-decoration: none;
+}
+.sao5 i{
+    color: #fdd835;
+}
+.tien{
+    color: #888888;
+}
+.tienbo{
+    color: #888888;
+    text-decoration:line-through;
+}
+.tiennhan{
+    color: red;
+}
+.showing{
+    background: #f6f6f6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.itemshowing{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.bakihieu{
+    padding-left: 500px;
+}
+.bakihieu a{
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    padding: 8px 13px 8px 13px;
+    background: #f1f1f1;
+    color: black;
+    text-decoration: none;
+}
+.bakihieu a:hover{
+    text-decoration: none;
+    background: #008eec;
+    color: white;
+}
+.so1 a{
+    background: #008eec;
+    color: white;
+}
+/* footer top */
+.footer{
+    padding-top: 50px;
+}
+.topfooter{
+    background: #0090f0;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sign{
+    font-size: 1.6rem;
+}
+.bethe{
+    color: #a2d7f9;
+}
+.thanh2{
+    padding-left: 25px;
+    padding-bottom: 14px;
+    padding-top: 12px;
+    border-right: 2px solid #0090f0;
+    border-top: 2px solid #0090f0;
+    border-bottom: 2px solid #0090f0;
+    border-left: 0;
+    border-radius:0 999px 999px 0;
+    font-size: 1rem;
+    color: white;
+    background: black;   
+}
+.thanh3{
+    padding-right: 130px;
+    margin-right: 0;
+    border-left: 2px solid #0090f0;
+    border-top: 2px solid #0090f0;
+    border-bottom: 2px solid #0090f0;
+    border-right: 0;
+    border-radius:999px 0 0 999px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.thanh2:hover{
+    background: black;
+    border: 1px solid black;
+}
+.namicon i{
+   margin: 0 13px 0 0;
+   padding-top: 20px;
+   color: white;
+}
+.namicon i:hover{
+    color: black;
+}
+/* footer center */
+.center{
+    padding-top: 30px;
+}
+.icondanhdau i{
+    font-size: 2rem;
+    color: black;
+    margin-top: 30px;
+}
+.chu {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: smaller;
+}
+/* footer bottom */
+.bottom{
+    list-style: none;
+    padding-top: 50px;
+}
+.indam{
+    font-size: 16px;
+}
+.indam1{
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+}
+.cotdau a{
+    color: #888888;
+    text-decoration: none;
+}
+.cotdau a:hover{
+    color: #008eec;
+}
+.gachmau{
+    padding-left: 0;
+}
+.sauhang{
+    padding-top: 30px;
+    padding-left: 0;
+    list-style: none;
+}
+.bottomfooter{
+    padding-bottom: 50px;
+}
+/* footer bottom1 */
+.bottomfooter1{
+    background: #f7f7f7;
+    color: gray;
+    text-align: right;
+}
+.bottomfooter1 a{
+color: black;
+}
+.bottomfooter1 i{
+    color: #888888;
+}
+.bottomfooter1 span{
+    padding-top: 10px;
+}
+.hinhdaidien{
+    padding-right: 0;
+}
+.bottomfooter1 span{
+    padding-right: 0;
+}
+.back-top a{
+    border: 1px solid #0090f0;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+    background: #0090f0;
+}
+.back-top-button i{
+    color: white;
+    font-size: 1rem;
+}
+.kitu{
+    text-align: left;
+}
+.kitu1{
+    text-align: right;
+}
+/* chỉnh cho mobile */
+.wel
+    {
+        display: none;
+    }
+@media(min-width :768px)
+{
+    .wel
+    {
+        display: block;
+    }
+}
+.bg-bn1
+    {
+        background: white;
+    }
+@media(min-width :768px)
+{
+    .bg-bn1
+    {
+        background: white;
+    }
+}
+#bottom-header
+    {
+        display: none;
+    }
+@media(min-width :768px)
+{
+    #bottom-header
+    {
+        display: block;
+    }
+}
+
+.hinhsdt
+    {
+        display: none;
+    }
+@media(min-width :768px)
+{
+    .hinhsdt
+    {
+        display: block;
+    }
+} 
+.there1
+    {
+        display: none;
+    }
+@media(min-width :768px)
+{
+    .there1
+    {
+        display: block;
+    }
+}
+.hinhtaiphon img
+    {
+        display: none;
+    }
+@media(min-width :768px)
+{
+    .hinhtaiphon img
+    {
+        display: block;
+    }
+}
